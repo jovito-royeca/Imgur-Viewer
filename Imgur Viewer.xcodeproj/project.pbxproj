@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C2F4C5B1CB74F5400685779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F4C5A1CB74F5400685779 /* AppDelegate.swift */; };
+		8C2F4C5D1CB74F5400685779 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F4C5C1CB74F5400685779 /* ViewController.swift */; };
+		8C2F4C601CB74F5400685779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2F4C5E1CB74F5400685779 /* Main.storyboard */; };
+		8C2F4C621CB74F5500685779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2F4C611CB74F5500685779 /* Assets.xcassets */; };
+		8C2F4C651CB74F5500685779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C2F4C631CB74F5500685779 /* LaunchScreen.storyboard */; };
+		8C2F4C701CB74F5500685779 /* Imgur_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F4C6F1CB74F5500685779 /* Imgur_ViewerTests.swift */; };
+		8C2F4C7B1CB74F5500685779 /* Imgur_ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F4C7A1CB74F5500685779 /* Imgur_ViewerUITests.swift */; };
+		8C2F4C891CB74F7400685779 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2F4C881CB74F7400685779 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C2F4C6C1CB74F5500685779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C2F4C4F1CB74F5400685779 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C2F4C561CB74F5400685779;
+			remoteInfo = "Imgur Viewer";
+		};
+		8C2F4C771CB74F5500685779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C2F4C4F1CB74F5400685779 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C2F4C561CB74F5400685779;
+			remoteInfo = "Imgur Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C2F4C571CB74F5400685779 /* Imgur Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Imgur Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2F4C5A1CB74F5400685779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C2F4C5C1CB74F5400685779 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C2F4C5F1CB74F5400685779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C2F4C611CB74F5500685779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C2F4C641CB74F5500685779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C2F4C661CB74F5500685779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2F4C6B1CB74F5500685779 /* Imgur ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Imgur ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2F4C6F1CB74F5500685779 /* Imgur_ViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imgur_ViewerTests.swift; sourceTree = "<group>"; };
+		8C2F4C711CB74F5500685779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2F4C761CB74F5500685779 /* Imgur ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Imgur ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2F4C7A1CB74F5500685779 /* Imgur_ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imgur_ViewerUITests.swift; sourceTree = "<group>"; };
+		8C2F4C7C1CB74F5500685779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C2F4C881CB74F7400685779 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C2F4C541CB74F5400685779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2F4C681CB74F5500685779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2F4C731CB74F5500685779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C2F4C4E1CB74F5400685779 = {
+			isa = PBXGroup;
+			children = (
+				8C2F4C591CB74F5400685779 /* Imgur Viewer */,
+				8C2F4C6E1CB74F5500685779 /* Imgur ViewerTests */,
+				8C2F4C791CB74F5500685779 /* Imgur ViewerUITests */,
+				8C2F4C581CB74F5400685779 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C2F4C581CB74F5400685779 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C2F4C571CB74F5400685779 /* Imgur Viewer.app */,
+				8C2F4C6B1CB74F5500685779 /* Imgur ViewerTests.xctest */,
+				8C2F4C761CB74F5500685779 /* Imgur ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C2F4C591CB74F5400685779 /* Imgur Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				8C2F4C5A1CB74F5400685779 /* AppDelegate.swift */,
+				8C2F4C611CB74F5500685779 /* Assets.xcassets */,
+				8C2F4C881CB74F7400685779 /* Constants.swift */,
+				8C2F4C661CB74F5500685779 /* Info.plist */,
+				8C2F4C631CB74F5500685779 /* LaunchScreen.storyboard */,
+				8C2F4C5E1CB74F5400685779 /* Main.storyboard */,
+				8C2F4C5C1CB74F5400685779 /* ViewController.swift */,
+			);
+			path = "Imgur Viewer";
+			sourceTree = "<group>";
+		};
+		8C2F4C6E1CB74F5500685779 /* Imgur ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C2F4C6F1CB74F5500685779 /* Imgur_ViewerTests.swift */,
+				8C2F4C711CB74F5500685779 /* Info.plist */,
+			);
+			path = "Imgur ViewerTests";
+			sourceTree = "<group>";
+		};
+		8C2F4C791CB74F5500685779 /* Imgur ViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C2F4C7A1CB74F5500685779 /* Imgur_ViewerUITests.swift */,
+				8C2F4C7C1CB74F5500685779 /* Info.plist */,
+			);
+			path = "Imgur ViewerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C2F4C561CB74F5400685779 /* Imgur Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2F4C7F1CB74F5500685779 /* Build configuration list for PBXNativeTarget "Imgur Viewer" */;
+			buildPhases = (
+				8C2F4C531CB74F5400685779 /* Sources */,
+				8C2F4C541CB74F5400685779 /* Frameworks */,
+				8C2F4C551CB74F5400685779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Imgur Viewer";
+			productName = "Imgur Viewer";
+			productReference = 8C2F4C571CB74F5400685779 /* Imgur Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C2F4C6A1CB74F5500685779 /* Imgur ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2F4C821CB74F5500685779 /* Build configuration list for PBXNativeTarget "Imgur ViewerTests" */;
+			buildPhases = (
+				8C2F4C671CB74F5500685779 /* Sources */,
+				8C2F4C681CB74F5500685779 /* Frameworks */,
+				8C2F4C691CB74F5500685779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C2F4C6D1CB74F5500685779 /* PBXTargetDependency */,
+			);
+			name = "Imgur ViewerTests";
+			productName = "Imgur ViewerTests";
+			productReference = 8C2F4C6B1CB74F5500685779 /* Imgur ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C2F4C751CB74F5500685779 /* Imgur ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2F4C851CB74F5500685779 /* Build configuration list for PBXNativeTarget "Imgur ViewerUITests" */;
+			buildPhases = (
+				8C2F4C721CB74F5500685779 /* Sources */,
+				8C2F4C731CB74F5500685779 /* Frameworks */,
+				8C2F4C741CB74F5500685779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C2F4C781CB74F5500685779 /* PBXTargetDependency */,
+			);
+			name = "Imgur ViewerUITests";
+			productName = "Imgur ViewerUITests";
+			productReference = 8C2F4C761CB74F5500685779 /* Imgur ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C2F4C4F1CB74F5400685779 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jovito Royeca";
+				TargetAttributes = {
+					8C2F4C561CB74F5400685779 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8C2F4C6A1CB74F5500685779 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8C2F4C561CB74F5400685779;
+					};
+					8C2F4C751CB74F5500685779 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8C2F4C561CB74F5400685779;
+					};
+				};
+			};
+			buildConfigurationList = 8C2F4C521CB74F5400685779 /* Build configuration list for PBXProject "Imgur Viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C2F4C4E1CB74F5400685779;
+			productRefGroup = 8C2F4C581CB74F5400685779 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C2F4C561CB74F5400685779 /* Imgur Viewer */,
+				8C2F4C6A1CB74F5500685779 /* Imgur ViewerTests */,
+				8C2F4C751CB74F5500685779 /* Imgur ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C2F4C551CB74F5400685779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2F4C651CB74F5500685779 /* LaunchScreen.storyboard in Resources */,
+				8C2F4C621CB74F5500685779 /* Assets.xcassets in Resources */,
+				8C2F4C601CB74F5400685779 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2F4C691CB74F5500685779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2F4C741CB74F5500685779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C2F4C531CB74F5400685779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2F4C5D1CB74F5400685779 /* ViewController.swift in Sources */,
+				8C2F4C5B1CB74F5400685779 /* AppDelegate.swift in Sources */,
+				8C2F4C891CB74F7400685779 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2F4C671CB74F5500685779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2F4C701CB74F5500685779 /* Imgur_ViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C2F4C721CB74F5500685779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2F4C7B1CB74F5500685779 /* Imgur_ViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C2F4C6D1CB74F5500685779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C2F4C561CB74F5400685779 /* Imgur Viewer */;
+			targetProxy = 8C2F4C6C1CB74F5500685779 /* PBXContainerItemProxy */;
+		};
+		8C2F4C781CB74F5500685779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C2F4C561CB74F5400685779 /* Imgur Viewer */;
+			targetProxy = 8C2F4C771CB74F5500685779 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C2F4C5E1CB74F5400685779 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2F4C5F1CB74F5400685779 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C2F4C631CB74F5500685779 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C2F4C641CB74F5500685779 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C2F4C7D1CB74F5500685779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C2F4C7E1CB74F5500685779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C2F4C801CB74F5500685779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Imgur Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Imgur-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C2F4C811CB74F5500685779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Imgur Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Imgur-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C2F4C831CB74F5500685779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Imgur ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Imgur-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imgur Viewer.app/Imgur Viewer";
+			};
+			name = Debug;
+		};
+		8C2F4C841CB74F5500685779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Imgur ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Imgur-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imgur Viewer.app/Imgur Viewer";
+			};
+			name = Release;
+		};
+		8C2F4C861CB74F5500685779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Imgur ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Imgur-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Imgur Viewer";
+			};
+			name = Debug;
+		};
+		8C2F4C871CB74F5500685779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Imgur ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Imgur-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Imgur Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C2F4C521CB74F5400685779 /* Build configuration list for PBXProject "Imgur Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2F4C7D1CB74F5500685779 /* Debug */,
+				8C2F4C7E1CB74F5500685779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2F4C7F1CB74F5500685779 /* Build configuration list for PBXNativeTarget "Imgur Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2F4C801CB74F5500685779 /* Debug */,
+				8C2F4C811CB74F5500685779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C2F4C821CB74F5500685779 /* Build configuration list for PBXNativeTarget "Imgur ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2F4C831CB74F5500685779 /* Debug */,
+				8C2F4C841CB74F5500685779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8C2F4C851CB74F5500685779 /* Build configuration list for PBXNativeTarget "Imgur ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C2F4C861CB74F5500685779 /* Debug */,
+				8C2F4C871CB74F5500685779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C2F4C4F1CB74F5400685779 /* Project object */;
+}
