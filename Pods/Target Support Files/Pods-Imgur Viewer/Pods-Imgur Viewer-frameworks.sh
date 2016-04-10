@@ -86,9 +86,11 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Imgur Viewer/AFNetworking.framework"
   install_framework "Pods-Imgur Viewer/BLKFlexibleHeightBar.framework"
+  install_framework "Pods-Imgur Viewer/CHTCollectionViewWaterfallLayout.framework"
   install_framework "Pods-Imgur Viewer/DATAFilter.framework"
   install_framework "Pods-Imgur Viewer/DATAObjectIDs.framework"
   install_framework "Pods-Imgur Viewer/DATAStack.framework"
+  install_framework "Pods-Imgur Viewer/ImgurSession.framework"
   install_framework "Pods-Imgur Viewer/JJJUtils.framework"
   install_framework "Pods-Imgur Viewer/MBProgressHUD.framework"
   install_framework "Pods-Imgur Viewer/NSDictionary_ANDYSafeValue.framework"
@@ -102,9 +104,11 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Imgur Viewer/AFNetworking.framework"
   install_framework "Pods-Imgur Viewer/BLKFlexibleHeightBar.framework"
+  install_framework "Pods-Imgur Viewer/CHTCollectionViewWaterfallLayout.framework"
   install_framework "Pods-Imgur Viewer/DATAFilter.framework"
   install_framework "Pods-Imgur Viewer/DATAObjectIDs.framework"
   install_framework "Pods-Imgur Viewer/DATAStack.framework"
+  install_framework "Pods-Imgur Viewer/ImgurSession.framework"
   install_framework "Pods-Imgur Viewer/JJJUtils.framework"
   install_framework "Pods-Imgur Viewer/MBProgressHUD.framework"
   install_framework "Pods-Imgur Viewer/NSDictionary_ANDYSafeValue.framework"

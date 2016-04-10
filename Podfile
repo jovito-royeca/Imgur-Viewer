@@ -7,8 +7,10 @@ use_frameworks!
 target "Imgur Viewer" do
 pod 'AFNetworking'
 pod 'BLKFlexibleHeightBar'
+pod 'CHTCollectionViewWaterfallLayout/Swift'
 pod 'Crashlytics'
 pod 'Fabric'
+pod 'ImgurSession'
 pod 'JJJUtils'
 pod 'MBProgressHUD'
 pod 'SDWebImage'
@@ -19,8 +21,10 @@ end
 target "Imgur ViewerTests" do
 pod 'AFNetworking'
 pod 'BLKFlexibleHeightBar'
+pod 'CHTCollectionViewWaterfallLayout/Swift'
 pod 'Crashlytics'
 pod 'Fabric'
+pod 'ImgurSession'
 pod 'JJJUtils'
 pod 'MBProgressHUD'
 pod 'SDWebImage'
@@ -31,8 +35,10 @@ end
 target "Imgur ViewerUITests" do
 pod 'AFNetworking'
 pod 'BLKFlexibleHeightBar'
+pod 'CHTCollectionViewWaterfallLayout/Swift'
 pod 'Crashlytics'
 pod 'Fabric'
+pod 'ImgurSession'
 pod 'JJJUtils'
 pod 'MBProgressHUD'
 pod 'SDWebImage'
