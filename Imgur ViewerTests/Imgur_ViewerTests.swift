@@ -7,6 +7,8 @@
 //
 
 import XCTest
+import ImgurSession
+
 @testable import Imgur_Viewer
 
 class Imgur_ViewerTests: XCTestCase {
@@ -31,6 +33,10 @@ class Imgur_ViewerTests: XCTestCase {
         self.measureBlock {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testGallery() {
+        
     }
     
 }
