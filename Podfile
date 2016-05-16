@@ -4,44 +4,38 @@ source 'https://github.com/CocoaPods/Specs.git'
 #platform :ios, "8.0"
 use_frameworks!
 
-target "Imgur Viewer" do
+target "Imgursonate" do
 pod 'AFNetworking'
 pod 'BLKFlexibleHeightBar'
 pod 'CHTCollectionViewWaterfallLayout/Swift'
 pod 'Crashlytics'
 pod 'Fabric'
-#pod 'ImgurSession'
 pod 'JJJUtils'
 pod 'MBProgressHUD'
 pod 'SDWebImage'
-#pod 'Sync'
 pod 'TLYShyNavBar'
 end
 
-target "Imgur ViewerTests" do
+target "ImgursonateTests" do
 pod 'AFNetworking'
 pod 'BLKFlexibleHeightBar'
 pod 'CHTCollectionViewWaterfallLayout/Swift'
 pod 'Crashlytics'
 pod 'Fabric'
-#pod 'ImgurSession'
 pod 'JJJUtils'
 pod 'MBProgressHUD'
 pod 'SDWebImage'
-#pod 'Sync'
 pod 'TLYShyNavBar'
 end
 
-target "Imgur ViewerUITests" do
+target "ImgursonateUITests" do
 pod 'AFNetworking'
 pod 'BLKFlexibleHeightBar'
 pod 'CHTCollectionViewWaterfallLayout/Swift'
 pod 'Crashlytics'
 pod 'Fabric'
-#pod 'ImgurSession'
 pod 'JJJUtils'
 pod 'MBProgressHUD'
 pod 'SDWebImage'
-#pod 'Sync'
 pod 'TLYShyNavBar'
 end
