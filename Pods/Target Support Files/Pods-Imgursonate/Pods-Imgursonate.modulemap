@@ -1,0 +1,6 @@
+framework module Pods_Imgursonate {
+  umbrella header "Pods-Imgursonate-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,527 +1,1407 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		8CEC3E8E1CE963CE00BE796C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC3E8D1CE963CE00BE796C /* AppDelegate.swift */; };
-		8CEC3E901CE963CE00BE796C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC3E8F1CE963CE00BE796C /* ViewController.swift */; };
-		8CEC3E931CE963CE00BE796C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEC3E911CE963CE00BE796C /* Main.storyboard */; };
-		8CEC3E951CE963CE00BE796C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CEC3E941CE963CE00BE796C /* Assets.xcassets */; };
-		8CEC3E981CE963CE00BE796C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CEC3E961CE963CE00BE796C /* LaunchScreen.storyboard */; };
-		8CEC3EA31CE963CE00BE796C /* ImgursonateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC3EA21CE963CE00BE796C /* ImgursonateTests.swift */; };
-		8CEC3EAE1CE963CE00BE796C /* ImgursonateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEC3EAD1CE963CE00BE796C /* ImgursonateUITests.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8CEC3E9F1CE963CE00BE796C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8CEC3E821CE963CD00BE796C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8CEC3E891CE963CE00BE796C;
-			remoteInfo = Imgursonate;
-		};
-		8CEC3EAA1CE963CE00BE796C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8CEC3E821CE963CD00BE796C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8CEC3E891CE963CE00BE796C;
-			remoteInfo = Imgursonate;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		8CEC3E8A1CE963CE00BE796C /* Imgursonate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imgursonate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CEC3E8D1CE963CE00BE796C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CEC3E8F1CE963CE00BE796C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8CEC3E921CE963CE00BE796C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8CEC3E941CE963CE00BE796C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8CEC3E971CE963CE00BE796C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8CEC3E991CE963CE00BE796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CEC3E9E1CE963CE00BE796C /* ImgursonateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImgursonateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CEC3EA21CE963CE00BE796C /* ImgursonateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgursonateTests.swift; sourceTree = "<group>"; };
-		8CEC3EA41CE963CE00BE796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CEC3EA91CE963CE00BE796C /* ImgursonateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImgursonateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CEC3EAD1CE963CE00BE796C /* ImgursonateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgursonateUITests.swift; sourceTree = "<group>"; };
-		8CEC3EAF1CE963CE00BE796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		8CEC3E871CE963CE00BE796C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8CEC3E9B1CE963CE00BE796C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8CEC3EA61CE963CE00BE796C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		8CEC3E811CE963CD00BE796C = {
-			isa = PBXGroup;
-			children = (
-				8CEC3E8C1CE963CE00BE796C /* Imgursonate */,
-				8CEC3EA11CE963CE00BE796C /* ImgursonateTests */,
-				8CEC3EAC1CE963CE00BE796C /* ImgursonateUITests */,
-				8CEC3E8B1CE963CE00BE796C /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		8CEC3E8B1CE963CE00BE796C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8CEC3E8A1CE963CE00BE796C /* Imgursonate.app */,
-				8CEC3E9E1CE963CE00BE796C /* ImgursonateTests.xctest */,
-				8CEC3EA91CE963CE00BE796C /* ImgursonateUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8CEC3E8C1CE963CE00BE796C /* Imgursonate */ = {
-			isa = PBXGroup;
-			children = (
-				8CEC3E8D1CE963CE00BE796C /* AppDelegate.swift */,
-				8CEC3E8F1CE963CE00BE796C /* ViewController.swift */,
-				8CEC3E911CE963CE00BE796C /* Main.storyboard */,
-				8CEC3E941CE963CE00BE796C /* Assets.xcassets */,
-				8CEC3E961CE963CE00BE796C /* LaunchScreen.storyboard */,
-				8CEC3E991CE963CE00BE796C /* Info.plist */,
-			);
-			path = Imgursonate;
-			sourceTree = "<group>";
-		};
-		8CEC3EA11CE963CE00BE796C /* ImgursonateTests */ = {
-			isa = PBXGroup;
-			children = (
-				8CEC3EA21CE963CE00BE796C /* ImgursonateTests.swift */,
-				8CEC3EA41CE963CE00BE796C /* Info.plist */,
-			);
-			path = ImgursonateTests;
-			sourceTree = "<group>";
-		};
-		8CEC3EAC1CE963CE00BE796C /* ImgursonateUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8CEC3EAD1CE963CE00BE796C /* ImgursonateUITests.swift */,
-				8CEC3EAF1CE963CE00BE796C /* Info.plist */,
-			);
-			path = ImgursonateUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		8CEC3E891CE963CE00BE796C /* Imgursonate */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8CEC3EB21CE963CE00BE796C /* Build configuration list for PBXNativeTarget "Imgursonate" */;
-			buildPhases = (
-				8CEC3E861CE963CE00BE796C /* Sources */,
-				8CEC3E871CE963CE00BE796C /* Frameworks */,
-				8CEC3E881CE963CE00BE796C /* Resources */,
-				8CEC3EBB1CE9646100BE796C /* Version Run Script */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Imgursonate;
-			productName = Imgursonate;
-			productReference = 8CEC3E8A1CE963CE00BE796C /* Imgursonate.app */;
-			productType = "com.apple.product-type.application";
-		};
-		8CEC3E9D1CE963CE00BE796C /* ImgursonateTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8CEC3EB51CE963CE00BE796C /* Build configuration list for PBXNativeTarget "ImgursonateTests" */;
-			buildPhases = (
-				8CEC3E9A1CE963CE00BE796C /* Sources */,
-				8CEC3E9B1CE963CE00BE796C /* Frameworks */,
-				8CEC3E9C1CE963CE00BE796C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8CEC3EA01CE963CE00BE796C /* PBXTargetDependency */,
-			);
-			name = ImgursonateTests;
-			productName = ImgursonateTests;
-			productReference = 8CEC3E9E1CE963CE00BE796C /* ImgursonateTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8CEC3EA81CE963CE00BE796C /* ImgursonateUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8CEC3EB81CE963CE00BE796C /* Build configuration list for PBXNativeTarget "ImgursonateUITests" */;
-			buildPhases = (
-				8CEC3EA51CE963CE00BE796C /* Sources */,
-				8CEC3EA61CE963CE00BE796C /* Frameworks */,
-				8CEC3EA71CE963CE00BE796C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8CEC3EAB1CE963CE00BE796C /* PBXTargetDependency */,
-			);
-			name = ImgursonateUITests;
-			productName = ImgursonateUITests;
-			productReference = 8CEC3EA91CE963CE00BE796C /* ImgursonateUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		8CEC3E821CE963CD00BE796C /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "Jovito Royeca";
-				TargetAttributes = {
-					8CEC3E891CE963CE00BE796C = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					8CEC3E9D1CE963CE00BE796C = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 8CEC3E891CE963CE00BE796C;
-					};
-					8CEC3EA81CE963CE00BE796C = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 8CEC3E891CE963CE00BE796C;
-					};
-				};
-			};
-			buildConfigurationList = 8CEC3E851CE963CD00BE796C /* Build configuration list for PBXProject "Imgursonate" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 8CEC3E811CE963CD00BE796C;
-			productRefGroup = 8CEC3E8B1CE963CE00BE796C /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				8CEC3E891CE963CE00BE796C /* Imgursonate */,
-				8CEC3E9D1CE963CE00BE796C /* ImgursonateTests */,
-				8CEC3EA81CE963CE00BE796C /* ImgursonateUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		8CEC3E881CE963CE00BE796C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8CEC3E981CE963CE00BE796C /* LaunchScreen.storyboard in Resources */,
-				8CEC3E951CE963CE00BE796C /* Assets.xcassets in Resources */,
-				8CEC3E931CE963CE00BE796C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8CEC3E9C1CE963CE00BE796C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8CEC3EA71CE963CE00BE796C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		8CEC3EBB1CE9646100BE796C /* Version Run Script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Version Run Script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "bN=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbN=$((0x$bN))\nbN=$(($bN + 1))\nbN=$(printf \"%X\" $bN)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $bN\" \"$INFOPLIST_FILE\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		8CEC3E861CE963CE00BE796C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8CEC3E901CE963CE00BE796C /* ViewController.swift in Sources */,
-				8CEC3E8E1CE963CE00BE796C /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8CEC3E9A1CE963CE00BE796C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8CEC3EA31CE963CE00BE796C /* ImgursonateTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8CEC3EA51CE963CE00BE796C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8CEC3EAE1CE963CE00BE796C /* ImgursonateUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8CEC3EA01CE963CE00BE796C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8CEC3E891CE963CE00BE796C /* Imgursonate */;
-			targetProxy = 8CEC3E9F1CE963CE00BE796C /* PBXContainerItemProxy */;
-		};
-		8CEC3EAB1CE963CE00BE796C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8CEC3E891CE963CE00BE796C /* Imgursonate */;
-			targetProxy = 8CEC3EAA1CE963CE00BE796C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8CEC3E911CE963CE00BE796C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CEC3E921CE963CE00BE796C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8CEC3E961CE963CE00BE796C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CEC3E971CE963CE00BE796C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		8CEC3EB01CE963CE00BE796C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8CEC3EB11CE963CE00BE796C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		8CEC3EB31CE963CE00BE796C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Imgursonate/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jovitoroyeca.Imgursonate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		8CEC3EB41CE963CE00BE796C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Imgursonate/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jovitoroyeca.Imgursonate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		8CEC3EB61CE963CE00BE796C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ImgursonateTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jovitoroyeca.ImgursonateTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imgursonate.app/Imgursonate";
-			};
-			name = Debug;
-		};
-		8CEC3EB71CE963CE00BE796C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = ImgursonateTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jovitoroyeca.ImgursonateTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imgursonate.app/Imgursonate";
-			};
-			name = Release;
-		};
-		8CEC3EB91CE963CE00BE796C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ImgursonateUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jovitoroyeca.ImgursonateUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Imgursonate;
-			};
-			name = Debug;
-		};
-		8CEC3EBA1CE963CE00BE796C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ImgursonateUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jovitoroyeca.ImgursonateUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Imgursonate;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		8CEC3E851CE963CD00BE796C /* Build configuration list for PBXProject "Imgursonate" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8CEC3EB01CE963CE00BE796C /* Debug */,
-				8CEC3EB11CE963CE00BE796C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8CEC3EB21CE963CE00BE796C /* Build configuration list for PBXNativeTarget "Imgursonate" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8CEC3EB31CE963CE00BE796C /* Debug */,
-				8CEC3EB41CE963CE00BE796C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		8CEC3EB51CE963CE00BE796C /* Build configuration list for PBXNativeTarget "ImgursonateTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8CEC3EB61CE963CE00BE796C /* Debug */,
-				8CEC3EB71CE963CE00BE796C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		8CEC3EB81CE963CE00BE796C /* Build configuration list for PBXNativeTarget "ImgursonateUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8CEC3EB91CE963CE00BE796C /* Debug */,
-				8CEC3EBA1CE963CE00BE796C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 8CEC3E821CE963CD00BE796C /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0484E06BE1997BC67F5C3C5B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ImgursonateTests/Pods-ImgursonateTests-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>092FED997051929D957FE9E1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Imgursonate/Pods-Imgursonate-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>09D37DB7E437A814F42EC2BD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Imgursonate.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Imgursonate/Pods-Imgursonate.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C74EBF76C14F7B8A3BD0020</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>0C881405A2DD61DAE938831D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>0F950672780AF5C8A128DEC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>66760E2384C50F98B08B0CBA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>194E95F019108145BA1677CC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-ImgursonateTests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-ImgursonateTests/Pods-ImgursonateTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>20ABB29B435D802BCD0AA136</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8C0AB4293F6DE758CD897446</string>
+				<string>09D37DB7E437A814F42EC2BD</string>
+				<string>194E95F019108145BA1677CC</string>
+				<string>74456C9D3BF0EDAF2CD325F2</string>
+				<string>5DF42217D6D06327F905321D</string>
+				<string>81D6B92FF64F557616220637</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27F6D84072D8D48601779FEC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Imgursonate/Pods-Imgursonate-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>5DF42217D6D06327F905321D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-ImgursonateUITests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-ImgursonateUITests/Pods-ImgursonateUITests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>66760E2384C50F98B08B0CBA</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_ImgursonateTests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>74456C9D3BF0EDAF2CD325F2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-ImgursonateTests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-ImgursonateTests/Pods-ImgursonateTests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>786F069F71B059F6CB9AE323</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ImgursonateUITests/Pods-ImgursonateUITests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>81D6B92FF64F557616220637</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-ImgursonateUITests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-ImgursonateUITests/Pods-ImgursonateUITests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84E52792B659336AF3E63230</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8958228DE7EEDF62A16E873E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8958228DE7EEDF62A16E873E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_Imgursonate.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>8C0AB4293F6DE758CD897446</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Imgursonate.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Imgursonate/Pods-Imgursonate.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3E811CE963CD00BE796C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8CEC3E8C1CE963CE00BE796C</string>
+				<string>8CEC3EA11CE963CE00BE796C</string>
+				<string>8CEC3EAC1CE963CE00BE796C</string>
+				<string>8CEC3E8B1CE963CE00BE796C</string>
+				<string>20ABB29B435D802BCD0AA136</string>
+				<string>FD5B14ED7D11265C59EB0318</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3E821CE963CD00BE796C</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0730</string>
+				<key>LastUpgradeCheck</key>
+				<string>0730</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Jovito Royeca</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>8CEC3E891CE963CE00BE796C</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+					</dict>
+					<key>8CEC3E9D1CE963CE00BE796C</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+						<key>TestTargetID</key>
+						<string>8CEC3E891CE963CE00BE796C</string>
+					</dict>
+					<key>8CEC3EA81CE963CE00BE796C</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+						<key>TestTargetID</key>
+						<string>8CEC3E891CE963CE00BE796C</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>8CEC3E851CE963CD00BE796C</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>8CEC3E811CE963CD00BE796C</string>
+			<key>productRefGroup</key>
+			<string>8CEC3E8B1CE963CE00BE796C</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>8CEC3E891CE963CE00BE796C</string>
+				<string>8CEC3E9D1CE963CE00BE796C</string>
+				<string>8CEC3EA81CE963CE00BE796C</string>
+			</array>
+		</dict>
+		<key>8CEC3E851CE963CD00BE796C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8CEC3EB01CE963CE00BE796C</string>
+				<string>8CEC3EB11CE963CE00BE796C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>8CEC3E861CE963CE00BE796C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8CEC3E901CE963CE00BE796C</string>
+				<string>8CEC3E8E1CE963CE00BE796C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8CEC3E871CE963CE00BE796C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>84E52792B659336AF3E63230</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8CEC3E881CE963CE00BE796C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8CEC3E981CE963CE00BE796C</string>
+				<string>8CEC3E951CE963CE00BE796C</string>
+				<string>8CEC3E931CE963CE00BE796C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8CEC3E891CE963CE00BE796C</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>8CEC3EB21CE963CE00BE796C</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0C881405A2DD61DAE938831D</string>
+				<string>8CEC3E861CE963CE00BE796C</string>
+				<string>8CEC3E871CE963CE00BE796C</string>
+				<string>8CEC3E881CE963CE00BE796C</string>
+				<string>8CEC3EBB1CE9646100BE796C</string>
+				<string>092FED997051929D957FE9E1</string>
+				<string>27F6D84072D8D48601779FEC</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Imgursonate</string>
+			<key>productName</key>
+			<string>Imgursonate</string>
+			<key>productReference</key>
+			<string>8CEC3E8A1CE963CE00BE796C</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>8CEC3E8A1CE963CE00BE796C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Imgursonate.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>8CEC3E8B1CE963CE00BE796C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8CEC3E8A1CE963CE00BE796C</string>
+				<string>8CEC3E9E1CE963CE00BE796C</string>
+				<string>8CEC3EA91CE963CE00BE796C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3E8C1CE963CE00BE796C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8CEC3E8D1CE963CE00BE796C</string>
+				<string>8CEC3E8F1CE963CE00BE796C</string>
+				<string>8CEC3E911CE963CE00BE796C</string>
+				<string>8CEC3E941CE963CE00BE796C</string>
+				<string>8CEC3E961CE963CE00BE796C</string>
+				<string>8CEC3E991CE963CE00BE796C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Imgursonate</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3E8D1CE963CE00BE796C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3E8E1CE963CE00BE796C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8CEC3E8D1CE963CE00BE796C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8CEC3E8F1CE963CE00BE796C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3E901CE963CE00BE796C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8CEC3E8F1CE963CE00BE796C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8CEC3E911CE963CE00BE796C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8CEC3E921CE963CE00BE796C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3E921CE963CE00BE796C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3E931CE963CE00BE796C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8CEC3E911CE963CE00BE796C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8CEC3E941CE963CE00BE796C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3E951CE963CE00BE796C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8CEC3E941CE963CE00BE796C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8CEC3E961CE963CE00BE796C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8CEC3E971CE963CE00BE796C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3E971CE963CE00BE796C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3E981CE963CE00BE796C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8CEC3E961CE963CE00BE796C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8CEC3E991CE963CE00BE796C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3E9A1CE963CE00BE796C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8CEC3EA31CE963CE00BE796C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8CEC3E9B1CE963CE00BE796C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0F950672780AF5C8A128DEC3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8CEC3E9C1CE963CE00BE796C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8CEC3E9D1CE963CE00BE796C</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>8CEC3EB51CE963CE00BE796C</string>
+			<key>buildPhases</key>
+			<array>
+				<string>D0AF7066AB157610818A8A39</string>
+				<string>8CEC3E9A1CE963CE00BE796C</string>
+				<string>8CEC3E9B1CE963CE00BE796C</string>
+				<string>8CEC3E9C1CE963CE00BE796C</string>
+				<string>0484E06BE1997BC67F5C3C5B</string>
+				<string>FF50E4390310BE77AD2BF1A6</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>8CEC3EA01CE963CE00BE796C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>ImgursonateTests</string>
+			<key>productName</key>
+			<string>ImgursonateTests</string>
+			<key>productReference</key>
+			<string>8CEC3E9E1CE963CE00BE796C</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>8CEC3E9E1CE963CE00BE796C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>ImgursonateTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>8CEC3E9F1CE963CE00BE796C</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>8CEC3E821CE963CD00BE796C</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>8CEC3E891CE963CE00BE796C</string>
+			<key>remoteInfo</key>
+			<string>Imgursonate</string>
+		</dict>
+		<key>8CEC3EA01CE963CE00BE796C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>8CEC3E891CE963CE00BE796C</string>
+			<key>targetProxy</key>
+			<string>8CEC3E9F1CE963CE00BE796C</string>
+		</dict>
+		<key>8CEC3EA11CE963CE00BE796C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8CEC3EA21CE963CE00BE796C</string>
+				<string>8CEC3EA41CE963CE00BE796C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>ImgursonateTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3EA21CE963CE00BE796C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ImgursonateTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3EA31CE963CE00BE796C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8CEC3EA21CE963CE00BE796C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8CEC3EA41CE963CE00BE796C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3EA51CE963CE00BE796C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8CEC3EAE1CE963CE00BE796C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8CEC3EA61CE963CE00BE796C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>91BC1C1226F9C1F15B766EB9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8CEC3EA71CE963CE00BE796C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8CEC3EA81CE963CE00BE796C</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>8CEC3EB81CE963CE00BE796C</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0C74EBF76C14F7B8A3BD0020</string>
+				<string>8CEC3EA51CE963CE00BE796C</string>
+				<string>8CEC3EA61CE963CE00BE796C</string>
+				<string>8CEC3EA71CE963CE00BE796C</string>
+				<string>786F069F71B059F6CB9AE323</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>8CEC3EAB1CE963CE00BE796C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>ImgursonateUITests</string>
+			<key>productName</key>
+			<string>ImgursonateUITests</string>
+			<key>productReference</key>
+			<string>8CEC3EA91CE963CE00BE796C</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>8CEC3EA91CE963CE00BE796C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>ImgursonateUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>8CEC3EAA1CE963CE00BE796C</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>8CEC3E821CE963CD00BE796C</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>8CEC3E891CE963CE00BE796C</string>
+			<key>remoteInfo</key>
+			<string>Imgursonate</string>
+		</dict>
+		<key>8CEC3EAB1CE963CE00BE796C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>8CEC3E891CE963CE00BE796C</string>
+			<key>targetProxy</key>
+			<string>8CEC3EAA1CE963CE00BE796C</string>
+		</dict>
+		<key>8CEC3EAC1CE963CE00BE796C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8CEC3EAD1CE963CE00BE796C</string>
+				<string>8CEC3EAF1CE963CE00BE796C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>ImgursonateUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3EAD1CE963CE00BE796C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ImgursonateUITests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3EAE1CE963CE00BE796C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8CEC3EAD1CE963CE00BE796C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8CEC3EAF1CE963CE00BE796C</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8CEC3EB01CE963CE00BE796C</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8CEC3EB11CE963CE00BE796C</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>8CEC3EB21CE963CE00BE796C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8CEC3EB31CE963CE00BE796C</string>
+				<string>8CEC3EB41CE963CE00BE796C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>8CEC3EB31CE963CE00BE796C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>8C0AB4293F6DE758CD897446</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Imgursonate/Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.jovitoroyeca.Imgursonate</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8CEC3EB41CE963CE00BE796C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>09D37DB7E437A814F42EC2BD</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Imgursonate/Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.jovitoroyeca.Imgursonate</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>8CEC3EB51CE963CE00BE796C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8CEC3EB61CE963CE00BE796C</string>
+				<string>8CEC3EB71CE963CE00BE796C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>8CEC3EB61CE963CE00BE796C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>194E95F019108145BA1677CC</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>ImgursonateTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.jovitoroyeca.ImgursonateTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Imgursonate.app/Imgursonate</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8CEC3EB71CE963CE00BE796C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>74456C9D3BF0EDAF2CD325F2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>ImgursonateTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.jovitoroyeca.ImgursonateTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Imgursonate.app/Imgursonate</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>8CEC3EB81CE963CE00BE796C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>8CEC3EB91CE963CE00BE796C</string>
+				<string>8CEC3EBA1CE963CE00BE796C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>8CEC3EB91CE963CE00BE796C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5DF42217D6D06327F905321D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>ImgursonateUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.jovitoroyeca.ImgursonateUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>Imgursonate</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>8CEC3EBA1CE963CE00BE796C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>81D6B92FF64F557616220637</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>ImgursonateUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.jovitoroyeca.ImgursonateUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>Imgursonate</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>8CEC3EBB1CE9646100BE796C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Version Run Script</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>bN=$(/usr/libexec/PlistBuddy -c "Print CFBundleVersion" "$INFOPLIST_FILE")
+bN=$((0x$bN))
+bN=$(($bN + 1))
+bN=$(printf "%X" $bN)
+/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $bN" "$INFOPLIST_FILE"
+</string>
+		</dict>
+		<key>91BC1C1226F9C1F15B766EB9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A0F269A1C94B91820DEF29DE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A0F269A1C94B91820DEF29DE</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_ImgursonateUITests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D0AF7066AB157610818A8A39</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>FD5B14ED7D11265C59EB0318</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8958228DE7EEDF62A16E873E</string>
+				<string>66760E2384C50F98B08B0CBA</string>
+				<string>A0F269A1C94B91820DEF29DE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FF50E4390310BE77AD2BF1A6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-ImgursonateTests/Pods-ImgursonateTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>8CEC3E821CE963CD00BE796C</string>
+</dict>
+</plist>
