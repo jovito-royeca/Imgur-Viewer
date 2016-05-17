@@ -1,5 +1,5 @@
 # Imgursonate
-Yet another Imgur client in iOS.
+A better Imgur client than Imgur in iOS.
 
 ## Features
 * Shows Gallery images in a grid view
